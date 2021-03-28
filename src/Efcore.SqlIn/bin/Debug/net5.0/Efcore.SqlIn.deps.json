@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Efcore.SqlIn/1.0.0": {
+        "runtime": {
+          "Efcore.SqlIn.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Efcore.SqlIn/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

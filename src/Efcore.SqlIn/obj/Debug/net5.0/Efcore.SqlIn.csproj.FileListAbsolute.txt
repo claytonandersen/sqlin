@@ -1,0 +1,12 @@
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/bin/Debug/net5.0/Efcore.SqlIn.deps.json
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/bin/Debug/net5.0/Efcore.SqlIn.dll
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/bin/Debug/net5.0/ref/Efcore.SqlIn.dll
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/bin/Debug/net5.0/Efcore.SqlIn.pdb
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/obj/Debug/net5.0/Efcore.SqlIn.csprojAssemblyReference.cache
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/obj/Debug/net5.0/Efcore.SqlIn.GeneratedMSBuildEditorConfig.editorconfig
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/obj/Debug/net5.0/Efcore.SqlIn.AssemblyInfoInputs.cache
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/obj/Debug/net5.0/Efcore.SqlIn.AssemblyInfo.cs
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/obj/Debug/net5.0/Efcore.SqlIn.csproj.CoreCompileInputs.cache
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/obj/Debug/net5.0/Efcore.SqlIn.dll
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/obj/Debug/net5.0/ref/Efcore.SqlIn.dll
+/Users/clayton/source/repos/sqlin/src/Efcore.SqlIn/obj/Debug/net5.0/Efcore.SqlIn.pdb
