@@ -10,7 +10,7 @@ namespace Efcore.SqlIn
     {
         public static IQueryable<TSource> In<TSource, TCollection>(
             this IQueryable<TSource> source,
-            IEnumerable<TCollection> collection,
+            List<TCollection> collection,
             Expression<Func<TSource, TCollection>> selector)
         {
             if (source == null)
@@ -28,7 +28,7 @@ namespace Efcore.SqlIn
                 throw new ArgumentNullException(nameof(selector));
             }
 
-            var listType = typeof(IEnumerable<TCollection>);
+            var listType = typeof(List<TCollection>);
             var addMethod = listType.GetMethod("Add");
             var getItemMethod = listType.GetMethod("get_Item");
             var containsMethod = listType.GetMethod("Contains");
@@ -52,7 +52,7 @@ namespace Efcore.SqlIn
                                         typeof(int))
                                 })
                         }))
-                        .ToList();
+                .ToList();
 
             var bucket = 1;
             while (initializers.Count > bucket)

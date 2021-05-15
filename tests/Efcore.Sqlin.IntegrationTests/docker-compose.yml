@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ms-sql-server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Pa55w0rdSqlin2021"
+      MSSQL_PID: Developer
+    ports:
+      - "1433:1433"
+  sqlin-tests:
+    build: .
