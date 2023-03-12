@@ -15,9 +15,27 @@ namespace Efcore.Sqlin.IntegrationTests
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.Entity<TestIntegerKeyModel>(e =>
+            {
+                e.HasIndex(i => i.Id, "PK_TestIntegerKeyModel");
+            });
+
+            modelBuilder.Entity<TestBigIntegerKeyModel>(e =>
+            {
+                e.HasIndex(i => i.Id, "PK_TestBigIntegerKeyModel");
+                e.Property(p => p.Id).HasColumnType("BIGINT");
+            });
+
+            modelBuilder.Entity<TestGuidKeyModel>(e =>
+            {
+                e.HasIndex(i => i.Id, "PK_TestGuidKeyModel");
+            });
         }
 
-        public virtual DbSet<TestEfModel> TestEfModel { get; set; }
+        public virtual DbSet<TestIntegerKeyModel> TestEfIntModel { get; set; }
+
+        public virtual DbSet<TestBigIntegerKeyModel> TestEfBigIntModel { get; set; }
+
+        public virtual DbSet<TestGuidKeyModel> TestGuidModel { get; set; }
     }
 }
